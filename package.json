@@ -1,0 +1,21 @@
+{
+  "name": "nodelearning",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "req": "curl http://localhost:3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "prompt-sync": "^4.2.0",
+    "puppeteer": "^21.5.1"
+  }
+}
